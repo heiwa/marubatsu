@@ -1,10 +1,8 @@
 package game.marubatsu;
 
-import game.marubatsu.player.ComputerUsingMap;
-import game.marubatsu.player.Player;
-import game.marubatsu.player.RandomPlayerUsingMap;
-import game.marubatsu.player.SaikyoPlayerUsingMap;
+import game.marubatsu.player.*;
 import game.marubatsu.status.GameStatus;
+import game.marubatsu.status.GameStatusArray;
 import game.marubatsu.status.GameStatusMap;
 import game.marubatsu.util.GameUtil;
 
