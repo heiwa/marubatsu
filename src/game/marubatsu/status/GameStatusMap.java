@@ -15,10 +15,6 @@ public class GameStatusMap extends GameStatus {
                                          "G", "H", "I"};
     public final static int BOARD_SIZE = 3;
 
-    public GameStatusMap() {
-        init();
-    }
-
     @Override
     public void initBoard() {
         board = new HashMap<String, String>();

@@ -9,10 +9,6 @@ public class GameStatusArray extends GameStatus {
     private String[][] board;
     public static final int BOARD_SIZE = 3;
 
-    public GameStatusArray() {
-        init();
-    }
-
     @Override
     public void initBoard() {
         board = new String[BOARD_SIZE][BOARD_SIZE];

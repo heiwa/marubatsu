@@ -13,6 +13,13 @@ public abstract class GameStatus {
     public static final String SECOND_SYMBOL = "×";
 
     /**
+     * サブクラスを作るときに初期化処理を走らせる。
+     */
+    public GameStatus() {
+        init();
+    }
+
+    /**
      * ゲームステータス初期化
      */
     public void init() {
